@@ -1,5 +1,5 @@
 import os
-# 不需要用到ffmpeg的依赖，但是需要有ffmpeg可执行文件
+# 不需要用到ffmpeg的依赖，但是需要有ffmpeg可执行文件，ffmpeg文件可以去【https://ffmpeg.org/】自行下载
 start_dir = os.getcwd()
 # 获取原始路径盘符
 start_dir = start_dir + "\\"
