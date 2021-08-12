@@ -1,12 +1,11 @@
 import os
-import ffmpeg
-
+# 不需要用到ffmpeg的依赖，但是需要有ffmpeg可执行文件
 start_dir = os.getcwd()
 # 获取原始路径盘符
 start_dir = start_dir + "\\"
 # 你的python路径放在上面
 translateScriptPrefix = start_dir + "\\ffmpeg.exe -i "
-# 路径预配置
+# 路径预配置，写入cmd
 
 def convert_to_mp4(originfile):
     arrName = []
